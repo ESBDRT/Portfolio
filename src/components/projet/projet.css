@@ -1,0 +1,45 @@
+.image {
+    height: 275px;
+    width: 275px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.project-text { 
+    width: 275px;
+    font-family: Roboto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project-container {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 40px 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.project-container:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.github {
+    padding-top: 10px;
+    height: 25px;
+    width: 75px;
+    object-fit: cover;
+}

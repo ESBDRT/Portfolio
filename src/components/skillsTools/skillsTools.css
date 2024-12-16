@@ -1,0 +1,8 @@
+.SkillsToolsArticle {
+    display: grid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+}
+

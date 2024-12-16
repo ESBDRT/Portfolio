@@ -1,0 +1,25 @@
+.top-header {
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 100px;
+	padding-block: 30px;
+	align-items: center;
+	gap: 10px;
+}
+
+.top-header .name {
+	font-size: 20px;
+}
+
+.nav ul {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

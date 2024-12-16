@@ -1,0 +1,175 @@
+.title {
+    margin: 0px 0px;
+}
+
+.section-projet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0px;
+    gap: 30px;
+}
+
+.section-about {
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.project-title {
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-title-h {
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.left {
+    flex: 1;
+    padding-left: 22%;
+}
+
+.right {
+    padding-left: 6%;
+    padding-right: 22%;
+    font-family: Roboto;
+}
+
+.portrait {
+    height: 300px;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+form button {
+    margin-top: 15px;
+    height: 40px;
+    width: 50%;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+textarea {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 55%;
+    justify-self: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+.li {
+    transition: transform 0.3s ease; 
+}
+
+.li:hover {
+    transform: scale(1.15);
+}
+
+.section-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 60px 22% 40px 22%;
+    gap: 20px;
+}
+
+@media (min-width: 730px) and (max-width: 1200px) {
+
+    .right {
+        width: 50%;
+        padding-left: 6%;
+        padding-right: 15%;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .section-skills {
+        grid-template-columns: 1fr 1fr;
+    };
+}
+
+@media (max-width: 730px){
+
+    .top-header {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .right {
+        padding: 0;
+    }
+
+    .left {
+        padding: 0;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 20px;
+    } 
+
+    .flex .skill-container {
+        width: 350px;
+    }
+
+    .section-skills {
+        grid-template-columns: 1fr;
+    };
+}
