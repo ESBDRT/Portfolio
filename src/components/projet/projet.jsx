@@ -5,7 +5,7 @@ function Projet({ title, content, details, image, alt, link }) {
   return (
     <div>
       <article className="project-container">
-        <img src={image} className="image" alt={alt} />
+        <img src={image} className="image" alt={alt} loading="lazy"/>
         <div className="project-text">
           <h3>{title}</h3>
           <h4 className="content">{content}</h4>

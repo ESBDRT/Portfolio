@@ -1,8 +1,8 @@
 import "./home.css";
-import events from "../assets/projects/724events.png";
-import argentbank from "../assets/projects/argentbank.png";
-import monitor from "../assets/projects/monitor.png";
-import portrait from "../assets/other/portrait.jpg";
+import events from "../assets/projects/724events.webp";
+import argentbank from "../assets/projects/argentbank.webp";
+import monitor from "../assets/projects/monitor.webp";
+import portrait from "../assets/other/portrait.webp";
 import html from '../assets/logos/html5.png'
 import css from '../assets/logos/css3.png'
 import js from '../assets/logos/javascript.png'
@@ -16,19 +16,11 @@ import SkillsTools from "../components/skillsTools/skillsTools";
 import Projet from "../components/projet/projet";
 import Footer from "../components/footer/footer";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faCss3Alt,
-  faHtml5,
-  faJs,
-  faPython,
-} from "@fortawesome/free-brands-svg-icons";
-
 function Home() {
   return (
     <>
       <Header />
+      <main>
       <div className="project-title">
         <h1 className="project-title-h">ABOUT ME</h1>
       </div>
@@ -54,14 +46,14 @@ function Home() {
         <h1>SKILLS AND TOOLS</h1>
       </div>
       <section id="SKILLS" className="section-skills">
-        <SkillsTools img={html} alt=""/>
-        <SkillsTools img={css} alt=""/>
-        <SkillsTools img={js} alt=""/>
-        <SkillsTools img={react} alt=""/>
-        <SkillsTools img={redux} alt=""/>
-        <SkillsTools img={github} alt=""/>
-        <SkillsTools img={notion} alt=""/>
-        <SkillsTools img={figma} alt=""/>
+        <SkillsTools img={html} alt="html card"/>
+        <SkillsTools img={css} alt="css card"/>
+        <SkillsTools img={js} alt="js card"/>
+        <SkillsTools img={react} alt="react card"/>
+        <SkillsTools img={redux} alt="redux card"/>
+        <SkillsTools img={github} alt="github card"/>
+        <SkillsTools img={notion} alt="notion card"/>
+        <SkillsTools img={figma} alt="figma card"/>
       </section>
       <div className="project-title">
         <h1 className="">PROJECTS</h1>
@@ -122,6 +114,7 @@ function Home() {
           </div>
         </form>
       </section>
+      </main>
       <Footer />
     </>
   );

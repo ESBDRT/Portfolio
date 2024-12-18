@@ -5,7 +5,7 @@
 
 .App {
   color: white;
-  background-image: url('./assets/other/background.jpg');
+  background-image: url('./assets/other/background.webp');
   object-fit: cover;
   background-attachment: fixed; 
   background-size: cover; 

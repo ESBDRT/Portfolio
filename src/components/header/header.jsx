@@ -2,7 +2,7 @@ import './header.css'
 
 function Header() {
     return (
-        <div class="top-header" id='HOME'>
+        <header class="top-header" id='HOME'>
 			<h1 class="name">Esteban Drouet</h1>
 			<nav class="nav">
 				<ul>
@@ -13,7 +13,7 @@ function Header() {
 					<li className='li'><a href="#CONTACT">CONTACT</a></li>
 				</ul>
 			</nav>
-		</div>
+		</header>
     )
 }
 
