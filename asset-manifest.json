@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.925d91ff.css",
-    "main.js": "/static/js/main.84781da3.js",
-    "static/media/background.webp": "/static/media/background.10fced627898715d5485.webp",
-    "static/media/figma.png": "/static/media/figma.dfa4e99ce82ae0ff823a.png",
-    "static/media/github-cat.png": "/static/media/github-cat.5b1fee893ecd262abb1f.png",
-    "static/media/redux.png": "/static/media/redux.a47d68966ded275b02d3.png",
-    "static/media/react.png": "/static/media/react.b84c7a1fa5f3344a2e6f.png",
-    "static/media/GitHub_Logo.png": "/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
-    "static/media/724events.webp": "/static/media/724events.e2ed0f274d1657bde7c0.webp",
-    "static/media/html5.png": "/static/media/html5.54a3f7ccf146a9b199aa.png",
-    "static/media/portrait.webp": "/static/media/portrait.f8e1705c7e69c9c621f9.webp",
-    "static/media/monitor.webp": "/static/media/monitor.97a2946d9581b37004bd.webp",
-    "static/media/argentbank.webp": "/static/media/argentbank.fdfe3d4e47f7e500b7a9.webp",
-    "index.html": "/index.html",
-    "main.925d91ff.css.map": "/static/css/main.925d91ff.css.map",
-    "main.84781da3.js.map": "/static/js/main.84781da3.js.map"
+    "main.css": "/portfolio/static/css/main.179d0215.css",
+    "main.js": "/portfolio/static/js/main.19e9386c.js",
+    "static/media/background.webp": "/portfolio/static/media/background.10fced627898715d5485.webp",
+    "static/media/figma.png": "/portfolio/static/media/figma.dfa4e99ce82ae0ff823a.png",
+    "static/media/github-cat.png": "/portfolio/static/media/github-cat.5b1fee893ecd262abb1f.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.a47d68966ded275b02d3.png",
+    "static/media/react.png": "/portfolio/static/media/react.b84c7a1fa5f3344a2e6f.png",
+    "static/media/GitHub_Logo.png": "/portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "static/media/724events.webp": "/portfolio/static/media/724events.e2ed0f274d1657bde7c0.webp",
+    "static/media/html5.png": "/portfolio/static/media/html5.54a3f7ccf146a9b199aa.png",
+    "static/media/portrait.webp": "/portfolio/static/media/portrait.f8e1705c7e69c9c621f9.webp",
+    "static/media/monitor.webp": "/portfolio/static/media/monitor.97a2946d9581b37004bd.webp",
+    "static/media/argentbank.webp": "/portfolio/static/media/argentbank.fdfe3d4e47f7e500b7a9.webp",
+    "index.html": "/portfolio/index.html",
+    "main.179d0215.css.map": "/portfolio/static/css/main.179d0215.css.map",
+    "main.19e9386c.js.map": "/portfolio/static/js/main.19e9386c.js.map"
   },
   "entrypoints": [
-    "static/css/main.925d91ff.css",
-    "static/js/main.84781da3.js"
+    "static/css/main.179d0215.css",
+    "static/js/main.19e9386c.js"
   ]
 }
