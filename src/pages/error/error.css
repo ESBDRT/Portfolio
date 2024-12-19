@@ -1,0 +1,12 @@
+.error-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    color: red;
+    font-size: 85px;
+}

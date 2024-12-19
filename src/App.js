@@ -1,10 +1,11 @@
 import './App.css';
-import Home from './pages/home';
+import BrowserRouter from './components/router/router';
+
 
 function App() {
   return (
     <div className='App'>
-        <Home/>
+      <BrowserRouter/>
     </div>
   );
 }

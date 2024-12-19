@@ -1,20 +1,21 @@
-import "./home.css";
-import events from "../assets/projects/724events.webp";
-import argentbank from "../assets/projects/argentbank.webp";
-import monitor from "../assets/projects/monitor.webp";
-import portrait from "../assets/other/portrait.webp";
-import html from '../assets/logos/html5.png'
-import css from '../assets/logos/css3.png'
-import js from '../assets/logos/javascript.png'
-import react from '../assets/logos/react.png'
-import redux from '../assets/logos/redux.png'
-import github from '../assets/logos/github-cat.png'
-import notion from '../assets/logos/notion.png'
-import figma from '../assets/logos/figma.png'
-import Header from "../components/header/header";
-import SkillsTools from "../components/skillsTools/skillsTools";
-import Projet from "../components/projet/projet";
-import Footer from "../components/footer/footer";
+import './home.css'
+import events from "../../assets/projects/724events.webp";
+import argentbank from "../../assets/projects/argentbank.webp";
+import monitor from "../../assets/projects/monitor.webp";
+import portrait from "../../assets/other/portrait.webp";
+import html from '../../assets/logos/html5.png'
+import css from '../../assets/logos/css3.png'
+import js from '../../assets/logos/javascript.png'
+import react from '../../assets/logos/react.png'
+import redux from '../../assets/logos/redux.png'
+import github from '../../assets/logos/github-cat.png'
+import notion from '../../assets/logos/notion.png'
+import figma from '../../assets/logos/figma.png'
+import Header from "../../components/header/header";
+import SkillsTools from "../../components/skillsTools/skillsTools";
+import Projet from "../../components/projet/projet";
+import Footer from "../../components/footer/footer";
+import ContactMe from "../../components/form/form";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
       <Header />
       <main>
       <div className="project-title">
-        <h1 className="project-title-h">ABOUT ME</h1>
+        <h2 className="project-title-h">ABOUT ME</h2>
       </div>
       <section id="ABOUT" className="section-about">
         <div class="container">
@@ -43,7 +44,7 @@ function Home() {
         </div>
       </section>
       <div className="project-title">
-        <h1>SKILLS AND TOOLS</h1>
+        <h2>SKILLS AND TOOLS</h2>
       </div>
       <section id="SKILLS" className="section-skills">
         <SkillsTools img={html} alt="html card"/>
@@ -56,7 +57,7 @@ function Home() {
         <SkillsTools img={figma} alt="figma card"/>
       </section>
       <div className="project-title">
-        <h1 className="">PROJECTS</h1>
+        <h2 className="">PROJECTS</h2>
       </div>
       <section id="PROJECTS" className="section-projet">
         <Projet
@@ -101,18 +102,8 @@ function Home() {
         />
       </section>
       <section id="CONTACT" className="section-contact">
-        <h1>CONTACT ME</h1>
-        <form action="/submit-form" className="form">
-          <label htmlFor="name">Your Name</label>
-          <input type="text" id="name" name="name" required></input>
-          <label htmlFor="email">Your Email</label>
-          <input type="email" id="email" name="email" required></input>
-          <label htmlFor="message">Your Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-          <div className="button-div">
-            <button type="submit">SEND</button>
-          </div>
-        </form>
+        <h2>CONTACT ME</h2>
+        <ContactMe/>
       </section>
       </main>
       <Footer />
