@@ -1,11 +1,11 @@
 import './App.css';
-import HashRouter from './components/router/router';
+import BrowserRouter from './components/router/router';
 
 
 function App() {
   return (
     <div className='App'>
-      <HashRouter/>
+      <BrowserRouter/>
     </div>
   );
 }

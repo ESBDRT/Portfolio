@@ -1,5 +1,4 @@
 import "./form.css";
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
 function ContactMe() {
