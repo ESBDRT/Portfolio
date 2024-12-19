@@ -1,22 +1,22 @@
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Home from '../../pages/home/home.jsx'
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+import Home from '../../pages/home/home.jsx';
 import Error from "../../pages/error/error.jsx";
 
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <Home/>
+  },
+  {
+    path: '*',
+    element: <Error/>
+  },
+]);
 
-const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Home/>
-    },
-    {
-      path: '*',
-      element: <Error/>
-    }
-  ]
-);
-  function BrowserRouter() {
-    return (
-      <RouterProvider router={router}/>
-    );
-  }
-  export default BrowserRouter;
+function HashRouter() {
+  return (
+    <RouterProvider router={router} />
+  );
+}
+
+export default HashRouter;
