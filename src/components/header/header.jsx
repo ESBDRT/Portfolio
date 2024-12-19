@@ -1,20 +1,31 @@
-import './header.css'
+import './header.css';
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
-    return (
-        <header class="top-header" id='HOME'>
-			<h1 class="name">Esteban Drouet</h1>
-			<nav class="nav">
-				<ul>
-					<li className='li'><a href="#HOME">HOME</a></li>
-					<li className='li'><a href="#ABOUT">ABOUT</a></li>
-					<li className='li'><a href="#SKILLS">SKILLS</a></li>
-					<li className='li'><a href="#PROJECTS">PROJECTS</a></li>
-					<li className='li'><a href="#CONTACT">CONTACT</a></li>
-				</ul>
-			</nav>
-		</header>
-    )
+  return (
+    <header className="top-header" id="HOME">
+      <h1 className="name">Esteban Drouet</h1>
+      <nav className="nav">
+        <ul>
+          <li className="li">
+            <HashLink to="#HOME">HOME</HashLink>
+          </li>
+          <li className="li">
+            <HashLink to="#ABOUT">ABOUT</HashLink>
+          </li>
+          <li className="li">
+            <HashLink to="#SKILLS">SKILLS</HashLink>
+          </li>
+          <li className="li">
+            <HashLink to="#PROJECTS">PROJECTS</HashLink>
+          </li>
+          <li className="li">
+            <HashLink to="#CONTACT">CONTACT</HashLink>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

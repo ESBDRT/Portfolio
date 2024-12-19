@@ -1,6 +1,7 @@
 import './footer.css'
 import github from '../../assets/logos/github-mark-white.png'
 import linkedin from '../../assets/logos/linkedin.png'
+import { HashLink } from 'react-router-hash-link';
 
 function Footer() {
     return (
@@ -12,12 +13,22 @@ function Footer() {
             <div className='footer'>
 			<nav class="nav">
 				<ul>
-					<li className='li'><a href="#HOME">HOME</a></li>
-					<li className='li'><a href="#ABOUT">ABOUT</a></li>
-                    <li className='li'><a href="#SKILLS">SKILLS</a></li>
-					<li className='li'><a href="#PROJECTS">PROJECTS</a></li>
-					<li className='li'><a href="#CONTACT">CONTACT</a></li>
-				</ul>
+                          <li className="li">
+                            <HashLink to="#HOME">HOME</HashLink>
+                          </li>
+                          <li className="li">
+                            <HashLink to="#ABOUT">ABOUT</HashLink>
+                          </li>
+                          <li className="li">
+                            <HashLink to="#SKILLS">SKILLS</HashLink>
+                          </li>
+                          <li className="li">
+                            <HashLink to="#PROJECTS">PROJECTS</HashLink>
+                          </li>
+                          <li className="li">
+                            <HashLink to="#CONTACT">CONTACT</HashLink>
+                          </li>
+                        </ul>
 			</nav>
 		</div>
         </footer>
