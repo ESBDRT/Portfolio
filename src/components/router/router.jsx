@@ -4,7 +4,7 @@ import Error from "../../pages/error/error.jsx";
 
 const router = createHashRouter([
   {
-    path: '/portfolio',
+    path: '/home',
     element: <Home/>
   },
   {
