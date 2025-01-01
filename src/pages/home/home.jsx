@@ -2,7 +2,7 @@ import './home.css'
 import events from "../../assets/projects/724events.webp";
 import argentbank from "../../assets/projects/argentbank.webp";
 import monitor from "../../assets/projects/monitor.webp";
-import portrait from "../../assets/other/portrait.webp";
+import portrait from "../../assets/other/portrait.png";
 import html from '../../assets/logos/html5.png'
 import css from '../../assets/logos/css3.png'
 import js from '../../assets/logos/javascript.png'
